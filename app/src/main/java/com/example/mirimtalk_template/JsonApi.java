@@ -11,7 +11,7 @@ import retrofit2.http.POST;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
 
-public interface JsonPlaceHolderApi {
+public interface JsonApi {
 
     @GET("/users/{user}")
     Call<User> getPosts(@Path("user") String user);

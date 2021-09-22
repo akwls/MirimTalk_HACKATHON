@@ -50,12 +50,12 @@ public class MainActivity extends AppCompatActivity {
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
-        final JsonPlaceHolderApi jsonPlaceHolderApi = retrofit.create(JsonPlaceHolderApi.class);
+        final JsonApi jsonApi = retrofit.create(JsonApi.class);
 
         btnSearch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Call<User> call = jsonPlaceHolderApi.getPosts(edtSearch.getText().toString());
+                Call<User> call = jsonApi.getPosts(edtSearch.getText().toString());
 
                 call.enqueue(new Callback<User>() {
                     @Override
