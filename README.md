@@ -32,15 +32,15 @@ Retrofit retrofit = new Retrofit.Builder()
 
 * 받아온 api를 위한 인터페이스 연결
 ```
-final JsonPlaceHolderApi jsonPlaceHolderApi = retrofit.create(JsonPlaceHolderApi.class);
+final JsonApi jsonApi = retrofit.create(JsonApi.class);
 ```
 
 * 인터페이스 내의 정보를 객체에 저장 - 입력된 아이디를 매개변수로 넘긴다
 ```
-Call<User> call = jsonPlaceHolderApi.getPosts(edtSearch.getText().toString());
+Call<User> call = jsonApi.getPosts(edtSearch.getText().toString());
 ```
 
-### JsonPlaceHolderApi
+### JsonApi
 * 매개변수로 받은 아이디의 api를 HTTP로부터 GET 요청.
 ```
 @GET("/users/{user}")
