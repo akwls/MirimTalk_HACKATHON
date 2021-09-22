@@ -6,10 +6,9 @@
 <br/><br/>
 
 ## 실행화면 
-![1](https://user-images.githubusercontent.com/80630432/134389066-15a8a6f5-168b-41dd-92b1-9cbb276cee7e.jpg)
-![2](https://user-images.githubusercontent.com/80630432/134389076-11261d6c-586f-4de0-996e-b083547f95c9.jpg)
-![3](https://user-images.githubusercontent.com/80630432/134389081-208e181e-7a20-48cb-a155-3c287bed4c19.jpg)
-
+<img src="https://user-images.githubusercontent.com/80630432/134389081-208e181e-7a20-48cb-a155-3c287bed4c19.jpg" width="150px">
+<img src="https://user-images.githubusercontent.com/80630432/134389066-15a8a6f5-168b-41dd-92b1-9cbb276cee7e.jpg" width="150px">
+<img src="https://user-images.githubusercontent.com/80630432/134389076-11261d6c-586f-4de0-996e-b083547f95c9.jpg" width="150px">
 <hr/>
 
 ## 사용기술
