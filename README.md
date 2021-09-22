@@ -6,9 +6,9 @@
 <br/><br/>
 
 ## 실행화면 
-<img src="https://user-images.githubusercontent.com/80630432/134389081-208e181e-7a20-48cb-a155-3c287bed4c19.jpg" width="150px">
-<img src="https://user-images.githubusercontent.com/80630432/134389066-15a8a6f5-168b-41dd-92b1-9cbb276cee7e.jpg" width="150px">
-<img src="https://user-images.githubusercontent.com/80630432/134389076-11261d6c-586f-4de0-996e-b083547f95c9.jpg" width="150px">
+![result1](D:\PHOTO\mirimtalk_template/1.jpg)
+![result2](D:\PHOTO\mirimtalk_template/2.jpg)
+![result3](D:\PHOTO\mirimtalk_template/3.jpg)
 
 <hr/>
 
