@@ -47,6 +47,11 @@ Call<User> call = jsonPlaceHolderApi.getPosts(edtSearch.getText().toString());
     Call<User> getPosts(@Path("user") String user);
 ```
 
+### (참고) 링크로 이미지뷰 설정하기
+```
+Glide.with(getApplicationContext()).load("url").into(ImageView);
+```
+
 
 ## 참고자료
 * https://jsonplaceholder.typicode.com/ 사이트를 이용한 예제!
